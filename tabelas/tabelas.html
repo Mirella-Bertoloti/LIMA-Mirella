@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    
+    <!-- ------------ TABELAS EM HTML ------------- -->
+    <!-- table>thead+tbody (atalho)-->
+
+    <h1>Trabalhando com Tabelas</h1>
+    
+    <h2>Tabela de Alunos</h2>
+    <table border="1">
+    
+        <thead><!-- cabeçalho -->
+            
+            <tr><!-- linha da tabela -->
+
+                <th>Nome</th><!-- Coluna -->
+                <th>Idade</th>
+                <th>CPF</th>
+                <th>Email</th>
+
+            </tr>
+
+        </thead>
+        
+        <tbody><!-- corpo -->
+
+            <tr><!-- linha -->
+
+                <td>Matheus</td><!-- item da tabela -->
+                <td>27</td>
+                <td>181.818.181-12</td>
+                <td>matheus@gmail.com</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Mirella</td>
+                <td>17</td>
+                <td>123.456.789.10</td>
+                <td>mirella@gmail.com</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Kauan</td>
+                <td>18</td>
+                <td>123.123.123-12</td>
+                <td>kaua@gmail.com</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Pablo</td>
+                <td>17</td>
+                <td>456.456.456-45</td>
+                <td>pablo@gmail.com</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Emerson</td>
+                <td>25</td>
+                <td>010.101.010.11</td>
+                <td>emerson@gmail.com</td>
+
+            </tr>
+
+        </tbody>
+
+
+    </table>
+
+
+    <!-- mesclando colunas -->
+    <!-- colspan="" (usado para mesclar colunas) -->
+    <!-- rowspan="" (usado para mesclar linhas) -->
+    <h2>Tabela de Filmes</h2>
+     <table border="1">
+
+        <thead>
+
+            <tr>
+                <th colspan="4">Lista de Filmes</th>
+            </tr>
+
+            <tr>
+                <th>Gênero</th>
+                <th>Ano</th>
+                <th>Título</th>
+                <th>Nota</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td rowspan="2">Ação</td>
+                <td>2019</td>
+                <td>Vingadores Ultimato</td>
+                <td>9.8</td>
+            </tr>
+
+            <tr>
+                <td>2014</td>
+                <td>John Wick</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Comédia</td>
+                <td>2005</td>
+                <td>American Pie</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>2007</td>
+                <td>Super Bad</td>
+                <td>7.6</td>
+            </tr>
+
+        </tbody>
+
+     </table>
+
+</body>
+</html>
